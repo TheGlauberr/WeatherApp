@@ -1,0 +1,89 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #227093; /* Warm orange background */
+  color: #f7f1e3; /* Soft cream text color */
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+  font-size: 5rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #f7f1e3; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  margin-bottom: 20px;
+  letter-spacing: 1.5px; /* Slightly spaced out letters */
+  background: linear-gradient(90deg, #f7f1e3, #f7f1e3); /* Gradient effect */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full viewport height */
+  gap: 20px; /* Spacing between child elements */
+}
+
+/* Outer Box */
+.outerBox {
+  background-color: #f7f1e3; /* Cream color */
+  border-radius: 30px;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+/* Hover Effect for Outer Box */
+.outerBox:hover {
+  transform: translateY(-5px); /* Subtle lift */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Inner Box */
+.innerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #f7f1e3;
+  padding: 15px;
+}
+
+/* Image Styles */
+img {
+  height: 64px;
+  border-radius: 50%; /* Circular appearance for images */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+/* Hover Effect for Images */
+img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Paragraph Styles */
+p {
+  background-color: transparent; /* Transparent for cleaner look */
+  color: #2C3A47; /* Darker color for better readability */
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 1.5; /* Improved readability */
+}
+
+h2{
+  background-color: transparent; /* Transparent for cleaner look */
+  color: #2C3A47; /* Darker color for better readability */
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 1.5; 
+}
